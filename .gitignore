@@ -52,3 +52,10 @@ untranslated.txt
 
 # Claude Code session state, not project files
 .claude/
+
+# Stray Flutter-engine binaries that have landed at the project root during
+# `flutter create --platforms=windows` / icon regeneration (not `build/`,
+# where they belong) — never source, safe to delete/ignore.
+/*.exe
+/*.dll
+/data/

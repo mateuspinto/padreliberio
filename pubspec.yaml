@@ -1,5 +1,5 @@
 name: minapadreliberio
-description: "Mina do Padre Libério — Web/WASM + Android + iOS app."
+description: "Mina do Padre Libério — Web/WASM + Android + iOS + Windows app."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -44,3 +44,7 @@ flutter_launcher_icons:
     image_path: "assets/icon/app_icon.png"
     background_color: "#FAF3E7"
     theme_color: "#6E2532"
+  windows:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    icon_size: 256
